@@ -15,7 +15,7 @@ const Pagebody = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://10.0.0.1:8080/increment?number=9', {
+      const response = await fetch('http://localhost:8080/increment?number=9', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
